@@ -10,11 +10,11 @@ function add(a: number, b: number): number {
 
 type Add = ReturnTypeFunction<typeof add>  
 
-function greet(name: string): string {
+function welcome(name: string): string {
   return `Hello, ${name}!`;
 }
 
-type Greet = ReturnTypeFunction<typeof greet> 
+type Greet = ReturnTypeFunction<typeof welcome> 
 
 
 
@@ -30,7 +30,7 @@ function greetInfo(name: string): string {
   return `Hello, ${name}!`;
 }
 
-type GreetInfo = FunctionInfo<typeof greet>;
+type GreetInfo = FunctionInfo<typeof greetInfo>;
 
 
 function multiply(a: number): number {
