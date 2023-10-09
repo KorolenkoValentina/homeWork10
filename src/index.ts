@@ -8,13 +8,13 @@ function add(a: number, b: number): number {
   return a + b;
 }
 
-type Add = ReturnTypeFunction<typeof add>  
+type AddInfo = ReturnTypeFunction<typeof add>  
 
 function welcome(name: string): string {
   return `Hello, ${name}!`;
 }
 
-type Welcome = ReturnTypeFunction<typeof welcome> 
+type WelcomeInfo = ReturnTypeFunction<typeof welcome> 
 
 
 
