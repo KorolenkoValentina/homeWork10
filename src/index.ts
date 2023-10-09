@@ -14,7 +14,7 @@ function welcome(name: string): string {
   return `Hello, ${name}!`;
 }
 
-type Greet = ReturnTypeFunction<typeof welcome> 
+type Welcome = ReturnTypeFunction<typeof welcome> 
 
 
 
